@@ -5,4 +5,8 @@ var fn = function fn(op1, op2) {
   op1 + op2;
 };
 
+var dv = function dv(op1, op2) {
+  op1 + op2;
+};
+
 },{}]},{},[1]);

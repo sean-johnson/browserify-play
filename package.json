@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify index.js -t babelify -o bunde.js"
+    "build": "browserify index.js -o bunde.js"
+  },
+  "browserify": {
+    "transform": ["babelify"]
   },
   "author": "",
   "license": "ISC",
